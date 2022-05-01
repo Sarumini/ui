@@ -1,0 +1,68 @@
+.img{
+  width:100%;
+  height:auto;
+}
+.container
+{
+  position:relative;
+  text-align: center;
+  color:white;
+
+}
+.centered{
+  position: absolute;
+  font-size: 4pt;
+  
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+#leftbox{
+font-size: small;
+   float: left;
+   width: 25%;
+   height: 280px;
+}
+#middlebox{
+  font-size: small;
+  margin-left: 35px;
+  float: left;
+  width: 30%;
+  height: 280px;
+}
+#rightbox{
+  font-size: small;
+  float: right;
+  width: 25%;
+  height: 280px;
+}
+.topnav {
+  font-size: small;
+  background-color: #2aa389;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.topnav a {
+  font-size: small;
+float: left;
+color: #2aa389;
+text-align: center;
+padding: 2px 2px;
+text-decoration: none;
+font-size: 5px;
+}
+.topnav a:hover {
+  font-size: small;
+background-color:#2aa389;
+color:#2aa389;
+}
+.topnav a.active {
+  font-size: small;
+background-color: #2aa389;
+color: white;
+}
+.topnav-right {
+  font-size: small;
+float: right;
+}
